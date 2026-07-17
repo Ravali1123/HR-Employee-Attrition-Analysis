@@ -46,10 +46,33 @@ Peer relationships showed comparatively little difference in attrition, suggesti
 - MySQL – Data cleaning, validation, exploratory analysis, and attrition analysis
 - Excel – Data review and supporting analysis
 
+- ## Business Recommendations
+
+Based on the analysis, the following areas could be prioritized to support employee retention:
+
+- **Improve employee engagement:** Employees with low engagement showed the highest attrition, indicating a need for regular engagement monitoring and targeted interventions.
+- **Strengthen manager effectiveness:** High attrition among employees dissatisfied with management suggests the need for stronger manager training, feedback mechanisms, and regular employee-manager check-ins.
+- **Expand training opportunities:** Employees with low training exposure experienced higher attrition, highlighting the importance of accessible learning and development opportunities.
+- **Review compensation practices:** Higher attrition among employees dissatisfied with compensation suggests reviewing pay competitiveness and communicating compensation structures clearly.
+- **Support work-life balance:** Flexible work practices, workload monitoring, and employee well-being initiatives may help address work-life balance concerns.
+- **Create clearer career paths:** Higher attrition among employees without promotions indicates the importance of transparent promotion criteria and internal career development opportunities.
+- **Prioritize high-risk workforce segments:** Retention initiatives should particularly examine the Sales department, SD1 position, and employees in the early years of service.
+
+> **Note:** These findings represent associations observed within this dataset and should not be interpreted as proof that these factors directly cause employee attrition.
+
 ## Project Workflow
 
 Raw Data → Data Cleaning → Data Validation → Exploratory Data Analysis → Attrition Analysis → Key Findings → Business Recommendations
 
 ## Project Status
+## Repository Structure
 
-The analysis is complete. SQL scripts and detailed project documentation are being organized and will be added to this repository.
+- `sql/01_data_cleaning.sql` – Data cleaning and preparation
+- `sql/02_exploratory_data_analysis.sql` – Workforce exploratory analysis
+- `sql/03_attrition_analysis.sql` – Detailed employee attrition analysis
+- `data/README.md` – Dataset information
+
+## Project Status
+
+The SQL-based employee attrition analysis is complete. 
+The repository contains the data preparation, exploratory analysis, attrition analysis, key findings, and business recommendations.
