@@ -2,8 +2,12 @@
 
 ## Project Overview
 
-Employee attrition can have a significant impact on workforce stability, productivity, and organizational costs. This project analyzes employee data to understand where attrition is highest and identify the factors associated with employees leaving the organization.
-The analysis was performed using SQL and Excel on a dataset containing 423 employee records.
+Employee attrition can have a significant impact on workforce stability, productivity, and organizational costs. 
+This project analyses employee data to understand where attrition is highest and identify the factors associated with employees leaving the organization.
+
+The project covers data cleaning, data validation, exploratory analysis, attrition analysis and interactive dashboard development using SQL and Power BI.
+
+The dataset contains 423 employee records and 30 columns.
 
 ## Business Questions
 
@@ -21,7 +25,7 @@ This analysis focuses on answering two main questions:
 
 ## Key Findings
 
-### Where is Attrition High?
+### Where is Attrition Highest?
 
 - The Sales department recorded the highest attrition rate at 56.76%.
 - The SD1 position recorded the highest position-level attrition at 83.33%, with 10 out of 12 employees leaving.
@@ -43,10 +47,24 @@ Peer relationships showed comparatively little difference in attrition, suggesti
 
 ## Tools Used
 
-- MySQL – Data cleaning, validation, exploratory analysis, and attrition analysis
-- Excel – Data review and supporting analysis
+- **MySQL** – Data cleaning, validation, exploratory analysis, and attrition analysis
+- **Power BI** – Interactive dashboard development and data visualization
+- **DAX** – KPI calculations and analytical measures
+- **Excel** – Data review and supporting analysis
 
-- ## Business Recommendations
+## Power BI Dashboard
+
+The Power BI dashboard contains seven analytical pages:
+
+1. **Workforce Overview** – Overall workforce composition and key employee metrics
+2. **Attrition Analysis** – Attrition by department, position, age group, and years of service
+3. **Department Benchmarking** – Department-level comparison of headcount, attrition, engagement and training
+4. **Satisfaction & Engagement Analysis** – Employee engagement and job satisfaction analysis
+5. **Training & Promotion Analysis** – Training exposure, promotion patterns and attrition by promotion status
+6. **Salary & Compensation Analysis** – Salary patterns, salary ranges, compensation satisfaction and attrition by salary range
+7. **Executive Summary** – Key findings and prioritized recommendations
+
+## Business Recommendations
 
 Based on the analysis, the following areas could be prioritized to support employee retention:
 
@@ -62,17 +80,8 @@ Based on the analysis, the following areas could be prioritized to support emplo
 
 ## Project Workflow
 
-Raw Data → Data Cleaning → Data Validation → Exploratory Data Analysis → Attrition Analysis → Key Findings → Business Recommendations
-
-## Project Status
-## Repository Structure
-
-- `sql/01_data_cleaning.sql` – Data cleaning and preparation
-- `sql/02_exploratory_data_analysis.sql` – Workforce exploratory analysis
-- `sql/03_attrition_analysis.sql` – Detailed employee attrition analysis
-- `data/README.md` – Dataset information
+Raw Data → Data Cleaning → Data Validation → Exploratory Data Analysis → Attrition Analysis → Power BI Dashboard → Key Findings → Business Recommendations
 
 ## Project Status
 
-The SQL-based employee attrition analysis is complete. 
-The repository contains the data preparation, exploratory analysis, attrition analysis, key findings, and business recommendations.
+Completed – SQL analysis, data validation, Power BI dashboard, key findings and business recommendations.
